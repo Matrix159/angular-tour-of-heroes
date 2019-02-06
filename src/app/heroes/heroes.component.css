@@ -1,14 +1,17 @@
 ul {
   margin: 0;
   padding: 0;
+  width: 15em;
+  list-style-type: none;
 }
 
-li {
-  display: inline-block;
-  margin-left: 0;
+.selected .badge {
+  color: #f0fff1;
+  background: #336699;
 }
+
 .selected {
   display: block;
-  color: blue;
-  border: 1px solid lightblue;
+  background: #888888;
+  color: #f0fff1;
 }
